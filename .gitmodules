@@ -1,0 +1,12 @@
+[submodule "src/hebi_description"]
+	path = src/hebi_description
+	url = https://github.com/HebiRobotics/hebi_description.git
+[submodule "src/mocap"]
+	path = src/mocap
+	url = https://github.com/MOCAP4ROS2-Project/mocap.git
+[submodule "src/motion_capture_system_r2"]
+	path = src/motion_capture_system_r2
+	url = https://github.com/KTH-DHSG/motion_capture_system_r2.git
+[submodule "src/mocap_msgs"]
+	path = src/mocap_msgs
+	url = https://github.com/MOCAP4ROS2-Project/mocap_msgs.git
