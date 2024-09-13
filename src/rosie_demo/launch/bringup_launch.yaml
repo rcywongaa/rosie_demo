@@ -1,0 +1,13 @@
+launch:
+
+- include:
+    file: "$(find-pkg-share qualisys_driver)/launch/qualisys.launch.py"
+
+- node:
+    pkg: "rosie_demo"
+    exec: "main"
+    name: "main"
+    param:
+    -
+      name: "positions_file"
+      value: "$(find-pkg-share rosie_demo)/config/positions.csv"
